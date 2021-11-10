@@ -1,0 +1,14 @@
+version: "dev-alpha"
+
+load_modules:
+  - discord
+  - messenger
+
+settings:
+  discord:
+    bot_token: "123456789"
+
+bridges:
+  - name: bridge1
+    messenger: "00000000"
+    discord: "000000"

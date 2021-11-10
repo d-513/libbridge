@@ -1,0 +1,32 @@
+{
+  "name": "libbridge",
+  "version": "1.0.0",
+  "description": "A Bridge between multiple chat platforms",
+  "main": "src/index.js",
+  "repository": "https://github.com/dada513/libbridge",
+  "author": "dada513",
+  "license": "AGPL-3.0",
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "build": "ts-auto-guard && tsc",
+    "start": "node lib/index.js"
+  },
+  "private": false,
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "discord.js": "^13.3.1",
+    "fs-extra": "^10.0.0",
+    "js-yaml": "^4.1.0",
+    "p-each-series": "https://github.com/dada513/p-each-series",
+    "telegraf": "^4.4.2"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^9.0.13",
+    "@types/js-yaml": "^4.0.4",
+    "@types/node": "^16.11.6",
+    "nodemon": "^2.0.14",
+    "ts-auto-guard": "^1.0.0-alpha.27",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.4"
+  }
+}
